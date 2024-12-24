@@ -10,7 +10,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center">
+    <div className="min-h-screen bg-black flex flex-col items-center justify-center">
       <h1 className="text-4xl font-bold text-center mb-4" data-aos="fade-up">
         Bienvenue sur Gestion des Événements
       </h1>

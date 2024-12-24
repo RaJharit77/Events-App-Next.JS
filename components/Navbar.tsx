@@ -4,16 +4,16 @@ import Link from 'next/link';
 
 export default function Navbar() {
     return (
-        <nav className="bg-white shadow-md">
+        <nav className="bg-black shadow-md">
             <div className="container mx-auto px-4 py-4 flex justify-between">
                 <div>
-                    <Link href="/">
-                        <a className="text-2xl font-bold">Événements</a>
+                    <Link href="/" className="text-2xl font-bold">
+                        Événement
                     </Link>
                 </div>
                 <div>
-                    <Link href="/events">
-                        <a className="text-gray-600 hover:text-gray-800">Mes Événements</a>
+                    <Link href="/events" className="text-gray-200 hover:text-gray-800">
+                        Mes Événements
                     </Link>
                 </div>
             </div>
