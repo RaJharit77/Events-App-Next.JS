@@ -7,6 +7,10 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata = {
   title: 'Gestion des Événements',
   description: 'Une application pour gérer les événements et les réservations.',
+  icons: {
+    icon: "/assets/events.png",
+  },
+  type: "image/svg+xml",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
